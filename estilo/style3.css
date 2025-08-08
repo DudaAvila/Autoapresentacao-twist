@@ -1,0 +1,78 @@
+header h1{
+    display: center ; 
+    text-align: center ;
+    font-size: 55px;
+    color:rgb(126, 44, 44);
+    font-family: 'Georgia'; 
+    border:   rgb(219, 213, 198)2px solid; 
+    background-color:  rgb(219, 213, 198);
+    padding-top: 4% ;
+}
+#container{
+    background-color: rgb(219, 213, 198);
+}
+
+#menu{
+    padding: 5px ; 
+    border: rgb(122, 60, 60)  2px solid ;  
+    margin: 2%; 
+    border-radius: 10px;
+    background-color: rgb(212, 177, 179) ;
+    font-size: 15pt;
+    width: 32%;
+    margin-bottom: 4% ;
+    text-align: center;
+} 
+
+#main{
+    font-size: 18pt;
+    margin:2%; 
+    padding:3%;
+    background-color: rgb(180, 169, 150) ;
+    border-radius: 10px;
+    font-family: 'Georgia';
+    box-shadow: 0 4px 8px rgb(41, 39, 39) ;
+}
+
+#rodape{
+    background-color:  rgb(86, 82, 84) ;
+    font-size: 15pt;
+    padding:2%; 
+    color: black; 
+}
+
+a, a:link{
+    text-decoration: none; 
+    color: rgb(80, 14, 14); 
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: rgb(45, 38, 121) ;
+    color:rgb(128, 170, 232); 
+}
+
+.texto{
+    border: solid  rgb(151, 115, 205)  1px; 
+    background-color:   rgb(148, 111, 199) ;
+    border-radius: 10px;
+    margin: 1%; 
+    margin-top: 5% ;
+}
+
+#botao{
+    width: 20%;
+    height: 20%;
+    box-shadow: 0 3% 7% rgb(41, 39, 39) ;
+}
+
+#botao2{
+    width: 50%;
+    box-shadow: 0 4px 8px rgb(41, 39, 39) ;
+    height: 50%;
+}
+
+#botao3{
+    width: 15%;
+    height: 5%;
+}

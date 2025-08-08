@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto apresentação</title>
+    <link rel="stylesheet" href="estilo/style3.css">
+    <link rel="stylesheet" href="estilo/fonte.css">
+    <link rel="shortcut icon" href="img/flor.jpg" type="image/x-icon">
+</head>
+<body>
+    <div id="container"> 
+        <header id="titulo"> 
+            <h1> ✸ Formulário ✸ </h1>
+        </header>
+        <nav id="menu"> 
+            <a href="index.html"> Home </a>&nbsp |
+            <a href="pag1.html"> Pagina 1</a>&nbsp |
+            <a href="pag2.html"> Pagina 2</a>&nbsp |
+            <a href="pag3.html"> Pagina 3</a>&nbsp |
+        </nav>
+        <section id="main"> 
+            <h2> Alguma indicação? </h2>
+                <fieldset> 
+                    <label for="nome"> Nome: </label>
+                    <input type="text" name="txtNome" id="txtNome" size="100" autofocus/>
+                    <br/><br/>
+                    <label for="dtNascimento"> Data nascimento: </label>
+                    <input type="date" name="txtDtNascimento" id="txtDtNascimento" autofocus/>
+                    <br/> <br/>
+                    <label for="filme"> Indicação de Filme: </label>
+                    <input type="text" name="txtFilme" id="txtFilme" size="100" autofocus/>
+                    <br/> <br/> 
+                    <label for="genero"> Gênero do filme: </label>
+                    <input list="genero" id="lstGenero" name="lstGenero"/> 
+                    <datalist id="genero">
+                        <option value="Romance"></option>
+                        <option value="Drama"></option>
+                        <option value="Terror"></option>
+                        <option value="Suspense"></option>
+                        <option value="Documentário"></option>
+                        <option value="Ação"></option>
+                    </datalist>
+                    <br/> <br/> 
+                    <label for="filme"> Indicação de Livro: </label>
+                    <input type="text" name="txtFilme" id="txtFilme" size="100" autofocus/>
+                    <br/> <br/> 
+                    <label for="tipo"> Gênero do Livro: </label>
+                    <input list="tipo" id="lstTipo" name="lstTipo"/> 
+                    <datalist id="tipo">
+                        <option value="Romance"></option>
+                        <option value="Tragédia"></option>
+                        <option value="Fantasia"></option>
+                        <option value="Suspense"></option>
+                        <option value="Biografia"></option>
+                    </datalist>
+                    <br/> <br/> 
+                    <label for="filme"> Indicação de Música: </label>
+                    <input type="text" name="txtMusica" id="txtMusica" size="100" autofocus/>
+                    <br/> <br/> 
+                    <label for="estilo"> Gênero do música: </label>
+                    <input list="estilo" id="lstEstilo" name="lstEstilo"/> 
+                    <datalist id="estilo">
+                        <option value="Pop"></option>
+                        <option value="Rock"></option>
+                        <option value="Clássica"></option>
+                        <option value="Rap"></option>
+                    </datalist>
+                    <br/> <br/> 
+                </fieldset> 
+                <h3> Tem interesse em uma cópia do livro? </h3>
+                <fieldset> 
+                    <legend> Dados Pessoais: </legend>
+                    <label for="nome"> Nome: </label>
+                    <input type="text" name="txtNome" id="txtNome" size="100" required autofocus/>
+                    <br/><br/>
+                    <label for id="telContato"> Contato: </label>
+                    <input type="tel" name="tlContato" id="tlConatato"
+                            placeholder="(DDD) + fone" required/>
+                    <br/> <br/> 
+                </fieldset>
+                <fieldset> 
+                    <legend> Endereço: </legend>
+                        <label for="cep"> Cep: </label>
+                        <input type="text" name="txtCep" id="txtCep"/>
+                        <br/> <br/> 
+                        <label for="cidade"> Cidade: </label>
+                        <input type="text" name="txtCid" id="txtCid"/> 
+                        <br/><br/> 
+                        <label for="estado"> Estado: </label>
+                        <select> 
+                            <option value="RJ"> RJ </option>
+                            <option value="SP"> SP </option>
+                            <option value="MG"> MG </option>
+                            <option value="ES"> ES </option>
+                        </select>
+                        <br/> <br/> 
+                        <label for="logradoro"> Logradoro </label>
+                        <input type="text" name="txtLog" id="txtLog"/>
+                        <br/><br/> 
+                        <label for="numero"> Numero: </label>
+                        <input type="text" name="txtNum" id="txtNum"/> 
+                        <br/><br/> 
+                        <label for="complemento"> Complemento:</label>
+                        <input type="text" name="txtComp" id="txtComp"/> 
+                        <br/><br/> 
+                </fieldset>
+                <br/> <br/> 
+                <input id="botao" type="submit" value="Salvar"> 
+            <button type="button" id="botao3"
+                onclick="alert('Espero que vocês tenham gostado da apresentação ♥ ')" > 
+                <img id="botao2" src="img/hamster.png" /> 
+                <strong> Clique aqui! </strong> 
+            </button>
+        </section>
+        <hr/> 
+        <footer id="rodape"> Maria Eduarda Ávila, 03 de ago de 2025 </footer>
+    </div>
+</body>
+</html>
+
+/*COLOCAR BOTAO DE FINALIZAR*/ 
+
+
